@@ -13,7 +13,7 @@ public class URLify  {
             }
         }
 
-        int index = str.length - 1;
+        int index = fullLength + 2 * spaceCount - 1;
         for(int i = fullLength - 1; i >= 0; i--) {
             if(str[i] == ' ') {
                 str[index] = '0';
