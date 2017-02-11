@@ -27,7 +27,6 @@ public class Partition {
         Scanner sc = new Scanner(System.in);
         LinkedListNode curNode = new LinkedListNode(0);
         LinkedListNode head = curNode;
-        LinkedListNode nextNode = curNode;
 
         for(int i = 1; i < 15; i++){
             curNode.next = new LinkedListNode((int)(Math.random()*10));
